@@ -1,0 +1,35 @@
+//
+//  ChatDemo-Prefix.pch
+//  ChatDemo
+//
+//  Created by user on 15/6/16.
+//  Copyright (c) 2015年 user. All rights reserved.
+//
+// ChatDemo-Prefix.swift是Swift 代码用到的全局变量
+// ChatDemo-Prefix.pch是oc代码用到的全局变量
+#import "UIImageView+WebCache.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "EMAlertView.h"
+#import "TTGlobalUICommon.h"
+
+#import "EaseMob.h"
+#ifndef ChatDemo_ChatDemo_Prefix_pch
+#define ChatDemo_ChatDemo_Prefix_pch
+#define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#define ServerUrl @"http://www.jiajiaook.com:31837/AppServer/"
+//#define ServerUrl @"http://10.0.6.8:8080/AppServer/"
+#define serverURL @"http://115.28.200.220:8066/ajax/"
+#define screenHeight  ([UIScreen mainScreen].applicationFrame.size.height)
+#define screenWidth  ([UIScreen mainScreen].applicationFrame.size.width)
+#define LoginURL @"http://115.28.200.220:8066/ajax/Login.ashx" 
+#define ChatDemoUser @"userLoginName"
+#define Exception @"Exception"
+#endif

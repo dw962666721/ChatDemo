@@ -1,0 +1,74 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AlipaySDK-2.0 (2.0.3)
+  - BaiduMapAPI (2.8.1):
+    - BaiduMapAPI/Default (= 2.8.1)
+  - BaiduMapAPI/Default (2.8.1):
+    - BaiduMapAPI/Universal
+  - BaiduMapAPI/Universal (2.8.1)
+  - CompatibleCocos2d (0.2.0):
+    - CompatibleCocos2d/cocos2d (= 0.2.0)
+    - CompatibleCocos2d/CocosDenshion (= 0.2.0)
+    - CompatibleCocos2d/kazmath (= 0.2.0)
+  - CompatibleCocos2d/cocos2d (0.2.0):
+    - CompatibleCocos2d/kazmath
+  - CompatibleCocos2d/CocosDenshion (0.2.0):
+    - CompatibleCocos2d/cocos2d
+  - CompatibleCocos2d/kazmath (0.2.0)
+  - DXYTencentOpenAPI (2.9.2)
+  - MJRefresh (2.0.4)
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
+  - UIColor+BFPaperColors (1.7.2)
+  - UITextView+UIControl (0.1.0)
+  - UMengAnalytics-NO-IDFA (3.6.7)
+  - WeiboSDK (3.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - AlipaySDK-2.0 (~> 2.0.3)
+  - BaiduMapAPI (~> 2.8.1)
+  - CompatibleCocos2d (~> 0.2.0)
+  - DXYTencentOpenAPI (~> 2.3)
+  - MJRefresh (~> 2.0.4)
+  - SDWebImage (~> 3.7.2)
+  - UIColor+BFPaperColors (~> 1.7.1)
+  - UITextView+UIControl (~> 0.1.0)
+  - UMengAnalytics-NO-IDFA
+  - WeiboSDK (~> 3.0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AlipaySDK-2.0: 75e0f3aa6a7a269c486078759e16695447645580
+  BaiduMapAPI: 2d03e12a51d5c6c49ece555c6bdda8562635cc02
+  CompatibleCocos2d: 887dc0c9776852cc3e4d447ea20a7f97c5e9fda0
+  DXYTencentOpenAPI: c6721744a317381ad53f9d0b564013657ae71d28
+  MJRefresh: ea153717001d3c02444bd22b75c111d2937d2104
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
+  UIColor+BFPaperColors: 03101fe6c10ed00c6daae7c26553f1de41500853
+  UITextView+UIControl: a607fed6c5f4e5ac890cd6da736590bdf8ffd863
+  UMengAnalytics-NO-IDFA: 6d02561a00579b2e37718f204eb81347df5d7b8b
+  WeiboSDK: 7403a19eaff56cc3d8813da5da6c60d2e7395c94
+
+COCOAPODS: 0.38.2

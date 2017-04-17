@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SendImageViewController" customModule="ChatDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="browseBtn" destination="NBI-tV-IUx" id="kCF-45-9xr"/>
+                <outlet property="buttomView" destination="GAQ-nM-b03" id="Xt8-XG-Ht4"/>
+                <outlet property="imageView" destination="5br-aH-kkN" id="4Qa-li-tMT"/>
+                <outlet property="sendBtn" destination="gBv-Ys-osN" id="tz7-ak-0a7"/>
+                <outlet property="topView" destination="9L3-sk-imu" id="Nas-mU-yD7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="64" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5br-aH-kkN">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GAQ-nM-b03">
+                    <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBI-tV-IUx">
+                            <rect key="frame" x="15" y="10" width="30" height="30"/>
+                            <state key="normal" title="取消">
+                                <color key="titleColor" red="0.20000000000000001" green="0.80000000000000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.20000000000000001" green="0.80000000000000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="browseAction:" destination="-1" eventType="touchUpInside" id="s85-a5-KKa"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBv-Ys-osN">
+                            <rect key="frame" x="245" y="10" width="60" height="30"/>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.80000000000000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="FZx-2j-MaD"/>
+                                <constraint firstAttribute="width" constant="60" id="l5d-eN-dQX"/>
+                            </constraints>
+                            <state key="normal" title="发送">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="sendImage:" destination="-1" eventType="touchUpInside" id="7k0-Y3-Q2k"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="centerY" secondItem="NBI-tV-IUx" secondAttribute="centerY" id="8KA-2z-6jY"/>
+                        <constraint firstAttribute="height" constant="50" id="9fv-3C-Knn"/>
+                        <constraint firstAttribute="trailing" secondItem="gBv-Ys-osN" secondAttribute="trailing" constant="15" id="K15-gD-ef1"/>
+                        <constraint firstItem="NBI-tV-IUx" firstAttribute="leading" secondItem="GAQ-nM-b03" secondAttribute="leading" constant="15" id="cQh-5r-Fmb"/>
+                        <constraint firstAttribute="centerY" secondItem="gBv-Ys-osN" secondAttribute="centerY" id="xoP-X6-HsB"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9L3-sk-imu">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8P-Db-KuD">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="64"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="Gmk-FO-PHq"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                            <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="返回" image="返回-白色">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="browseAction:" destination="-1" eventType="touchUpInside" id="C9Q-7T-c5a"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="H8P-Db-KuD" firstAttribute="leading" secondItem="9L3-sk-imu" secondAttribute="leading" id="b42-Hh-faP"/>
+                        <constraint firstAttribute="height" secondItem="H8P-Db-KuD" secondAttribute="height" id="fK1-U7-9jP"/>
+                        <constraint firstAttribute="height" constant="64" id="w3K-em-2L3"/>
+                        <constraint firstAttribute="centerY" secondItem="H8P-Db-KuD" secondAttribute="centerY" id="yFs-67-QqA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5br-aH-kkN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5Re-FM-ya0"/>
+                <constraint firstAttribute="trailing" secondItem="9L3-sk-imu" secondAttribute="trailing" id="CRg-wo-ECr"/>
+                <constraint firstAttribute="trailing" secondItem="5br-aH-kkN" secondAttribute="trailing" id="KfM-cI-O13"/>
+                <constraint firstItem="9L3-sk-imu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="L9b-aH-lxg"/>
+                <constraint firstAttribute="trailing" secondItem="GAQ-nM-b03" secondAttribute="trailing" id="aGe-rV-Bhw"/>
+                <constraint firstAttribute="bottom" secondItem="5br-aH-kkN" secondAttribute="bottom" id="cZc-7Q-QPK"/>
+                <constraint firstItem="5br-aH-kkN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kfO-ZL-3FQ"/>
+                <constraint firstAttribute="bottom" secondItem="GAQ-nM-b03" secondAttribute="bottom" id="niD-TI-ezm"/>
+                <constraint firstItem="GAQ-nM-b03" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="r4s-ah-bgq"/>
+                <constraint firstItem="9L3-sk-imu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="yAC-NA-qRo"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="返回-白色" width="10" height="16"/>
+    </resources>
+</document>

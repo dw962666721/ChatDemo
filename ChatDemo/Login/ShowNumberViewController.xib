@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShowNumberViewController" customModule="ChatDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="enterBtn" destination="WVV-kg-z9a" id="lfG-ns-mTf"/>
+                <outlet property="numberTextFiled" destination="JZW-zw-fld" id="ENl-Dz-04e"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你已获得我爱号码" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRh-gL-ny3">
+                    <rect key="frame" x="112" y="95" width="96" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11244" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZW-zw-fld">
+                    <rect key="frame" x="119" y="135" width="82" height="36"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <color key="textColor" red="1" green="0.23998948780000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVV-kg-z9a">
+                    <rect key="frame" x="10" y="207" width="300" height="45"/>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.80000000000000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="oTW-L8-y3r"/>
+                    </constraints>
+                    <state key="normal" title="进入我爱">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="enterAction:" destination="-1" eventType="touchUpInside" id="Bjn-3i-kCp"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="WVV-kg-z9a" firstAttribute="top" secondItem="JZW-zw-fld" secondAttribute="bottom" constant="36" id="CwW-Ca-KQu"/>
+                <constraint firstItem="WVV-kg-z9a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="DNM-pp-oAS"/>
+                <constraint firstAttribute="trailing" secondItem="WVV-kg-z9a" secondAttribute="trailing" constant="10" id="WjI-Y9-IhN"/>
+                <constraint firstItem="JZW-zw-fld" firstAttribute="top" secondItem="VRh-gL-ny3" secondAttribute="bottom" constant="25" id="ZqQ-5m-R2K"/>
+                <constraint firstAttribute="centerX" secondItem="VRh-gL-ny3" secondAttribute="centerX" id="da7-0l-pzM"/>
+                <constraint firstItem="VRh-gL-ny3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="95" id="ktT-rr-Ljm"/>
+                <constraint firstAttribute="centerX" secondItem="JZW-zw-fld" secondAttribute="centerX" id="yX6-3w-ecg"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

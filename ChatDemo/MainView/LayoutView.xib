@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="110" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qiV-Np-kmY" userLabel="偶遇Button">
+                    <rect key="frame" x="8" y="8" width="58" height="58"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="3" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="偶遇">
+                        <color key="titleColor" red="1" green="0.62779583029999997" blue="0.243743878" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0bK-qH-ELP">
+                    <rect key="frame" x="66" y="37" width="24" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="XaR-Oh-Zyh"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" tag="111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMb-dc-W12" userLabel="教师Button">
+                    <rect key="frame" x="90" y="8" width="58" height="58"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <inset key="titleEdgeInsets" minX="-55" minY="-32" maxX="0.0" maxY="-100"/>
+                    <state key="normal" image="附近的人">
+                        <color key="titleColor" red="1" green="0.62779583029999997" blue="0.243743878" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wea-LV-ios">
+                    <rect key="frame" x="148" y="37" width="24" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="7Ub-b5-bbn"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" tag="112" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lSM-mK-jBE" userLabel="学校Button">
+                    <rect key="frame" x="172" y="8" width="58" height="58"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="3" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="寻姻缘">
+                        <color key="titleColor" red="1" green="0.62779583029999997" blue="0.243743878" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lxc-Dg-xCk">
+                    <rect key="frame" x="230" y="55" width="24" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="eSR-Y6-Ux0"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" tag="113" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ccp-A3-cod" userLabel="机构Button">
+                    <rect key="frame" x="254" y="8" width="58" height="58"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="3" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="搜朋友">
+                        <color key="titleColor" red="1" green="0.62779583029999997" blue="0.243743878" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="偶遇" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OgV-bm-zzX">
+                    <rect key="frame" x="20" y="74" width="34" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="dKb-xU-q09"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="附近的人" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4C9-iW-i8H">
+                    <rect key="frame" x="85" y="74" width="68" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="寻姻缘" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ug8-nx-Yqe">
+                    <rect key="frame" x="176" y="74" width="51" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="搜盆友" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZY-Tl-ev5">
+                    <rect key="frame" x="258" y="74" width="51" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view tag="114" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Na-Kf-CUf">
+                    <rect key="frame" x="0.0" y="103" width="320" height="30"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="消息" translatesAutoresizingMaskIntoConstraints="NO" id="1gB-K1-Tun">
+                            <rect key="frame" x="8" y="8" width="15" height="14"/>
+                        </imageView>
+                        <button opaque="NO" tag="115" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4As-PC-ZWh">
+                            <rect key="frame" x="240" y="7" width="77" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="77" id="Ezx-u2-dFl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="管理卡片" image="管理卡片">
+                                <color key="titleColor" red="1" green="0.62779583029999997" blue="0.243743878" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4l4-8T-U1Q">
+                            <rect key="frame" x="233" y="0.0" width="1" height="30"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="dud-iH-YLX"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="118-nZ-wjy"/>
+                        <constraint firstItem="1gB-K1-Tun" firstAttribute="leading" secondItem="7Na-Kf-CUf" secondAttribute="leadingMargin" id="2Ox-50-67k"/>
+                        <constraint firstItem="4As-PC-ZWh" firstAttribute="leading" secondItem="4l4-8T-U1Q" secondAttribute="trailing" constant="6" id="D4F-64-hUb"/>
+                        <constraint firstItem="4l4-8T-U1Q" firstAttribute="top" secondItem="7Na-Kf-CUf" secondAttribute="top" id="Sl6-j5-8xM"/>
+                        <constraint firstAttribute="trailing" secondItem="4As-PC-ZWh" secondAttribute="trailing" constant="3" id="jvM-M4-tqY"/>
+                        <constraint firstAttribute="centerY" secondItem="1gB-K1-Tun" secondAttribute="centerY" id="n0N-79-a7b"/>
+                        <constraint firstItem="4l4-8T-U1Q" firstAttribute="height" secondItem="7Na-Kf-CUf" secondAttribute="height" id="vLU-PN-OKg"/>
+                        <constraint firstItem="4As-PC-ZWh" firstAttribute="centerY" secondItem="4l4-8T-U1Q" secondAttribute="centerY" id="y4j-qX-Agb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="qiV-Np-kmY" firstAttribute="centerY" secondItem="0bK-qH-ELP" secondAttribute="centerY" id="3TI-CK-pU6"/>
+                <constraint firstItem="4C9-iW-i8H" firstAttribute="centerX" secondItem="xMb-dc-W12" secondAttribute="centerX" id="3zc-Fy-5Mo"/>
+                <constraint firstItem="qiV-Np-kmY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="86V-7h-ct0"/>
+                <constraint firstItem="xMb-dc-W12" firstAttribute="centerY" secondItem="wea-LV-ios" secondAttribute="centerY" id="AGc-Ay-1bF"/>
+                <constraint firstItem="Ccp-A3-cod" firstAttribute="centerY" secondItem="lSM-mK-jBE" secondAttribute="centerY" id="AoN-tL-Ur9"/>
+                <constraint firstItem="lSM-mK-jBE" firstAttribute="centerY" secondItem="xMb-dc-W12" secondAttribute="centerY" id="COl-uF-Ik6"/>
+                <constraint firstItem="xMb-dc-W12" firstAttribute="leading" secondItem="0bK-qH-ELP" secondAttribute="trailing" id="IF8-Yz-ZEA"/>
+                <constraint firstAttribute="trailingMargin" secondItem="Ccp-A3-cod" secondAttribute="trailing" id="KKb-Be-6T2"/>
+                <constraint firstItem="OgV-bm-zzX" firstAttribute="top" secondItem="qiV-Np-kmY" secondAttribute="bottom" constant="8" id="L9s-kR-vaA"/>
+                <constraint firstItem="lxc-Dg-xCk" firstAttribute="width" secondItem="wea-LV-ios" secondAttribute="width" id="MmZ-cK-ibw"/>
+                <constraint firstItem="0bK-qH-ELP" firstAttribute="width" secondItem="wea-LV-ios" secondAttribute="width" id="Mto-Rq-Icc"/>
+                <constraint firstItem="qiV-Np-kmY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="topMargin" id="OMh-ca-6fY"/>
+                <constraint firstItem="Ug8-nx-Yqe" firstAttribute="centerY" secondItem="NZY-Tl-ev5" secondAttribute="centerY" id="Oh0-kz-Dmi"/>
+                <constraint firstItem="Ug8-nx-Yqe" firstAttribute="centerY" secondItem="4C9-iW-i8H" secondAttribute="centerY" id="Qgo-Id-WPa"/>
+                <constraint firstItem="OgV-bm-zzX" firstAttribute="centerY" secondItem="4C9-iW-i8H" secondAttribute="centerY" id="S3z-p2-WBf"/>
+                <constraint firstItem="7Na-Kf-CUf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UhR-MR-IBu"/>
+                <constraint firstAttribute="trailing" secondItem="7Na-Kf-CUf" secondAttribute="trailing" id="WZj-Gb-Bb0"/>
+                <constraint firstItem="OgV-bm-zzX" firstAttribute="centerX" secondItem="qiV-Np-kmY" secondAttribute="centerX" id="YRC-A7-F9E"/>
+                <constraint firstItem="lSM-mK-jBE" firstAttribute="leading" secondItem="wea-LV-ios" secondAttribute="trailing" id="bvI-e7-vbz"/>
+                <constraint firstItem="Ccp-A3-cod" firstAttribute="centerX" secondItem="NZY-Tl-ev5" secondAttribute="centerX" id="ips-zz-WJB"/>
+                <constraint firstItem="qiV-Np-kmY" firstAttribute="centerY" secondItem="xMb-dc-W12" secondAttribute="centerY" id="lQV-x9-sDq"/>
+                <constraint firstItem="lxc-Dg-xCk" firstAttribute="centerY" secondItem="lSM-mK-jBE" secondAttribute="centerY" constant="18.5" id="msQ-2Y-rwg"/>
+                <constraint firstItem="Ug8-nx-Yqe" firstAttribute="centerX" secondItem="lSM-mK-jBE" secondAttribute="centerX" id="pEO-XR-Fdp"/>
+                <constraint firstItem="0bK-qH-ELP" firstAttribute="leading" secondItem="qiV-Np-kmY" secondAttribute="trailing" id="pb4-a0-vSQ"/>
+                <constraint firstItem="lxc-Dg-xCk" firstAttribute="leading" secondItem="lSM-mK-jBE" secondAttribute="trailing" id="pcc-4e-0AA"/>
+                <constraint firstItem="Ccp-A3-cod" firstAttribute="leading" secondItem="lxc-Dg-xCk" secondAttribute="trailing" id="rF4-NG-NgX"/>
+                <constraint firstItem="wea-LV-ios" firstAttribute="leading" secondItem="xMb-dc-W12" secondAttribute="trailing" id="uFq-GT-gIb"/>
+                <constraint firstAttribute="bottom" secondItem="7Na-Kf-CUf" secondAttribute="bottom" id="zXY-G3-X0R"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-509" y="23.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="偶遇" width="58" height="58"/>
+        <image name="寻姻缘" width="58" height="58"/>
+        <image name="搜朋友" width="58" height="58"/>
+        <image name="消息" width="15" height="14"/>
+        <image name="管理卡片" width="16" height="16"/>
+        <image name="附近的人" width="58" height="58"/>
+    </resources>
+</document>

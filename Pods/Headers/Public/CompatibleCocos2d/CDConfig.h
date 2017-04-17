@@ -1,0 +1,1 @@
+../../../CompatibleCocos2d/Pod/Classes/CocosDenshion/CDConfig.h

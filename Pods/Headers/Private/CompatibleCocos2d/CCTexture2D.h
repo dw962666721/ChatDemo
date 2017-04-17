@@ -1,0 +1,1 @@
+../../../CompatibleCocos2d/Pod/Classes/cocos2d/CCTexture2D.h

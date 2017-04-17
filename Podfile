@@ -1,0 +1,12 @@
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+pod 'MJRefresh', '~> 2.0.4'
+pod 'SDWebImage', '~> 3.7.2'
+pod 'UIColor+BFPaperColors', '~> 1.7.1'
+pod 'UMengAnalytics-NO-IDFA'
+pod 'DXYTencentOpenAPI', '~> 2.3'
+pod 'WeiboSDK', '~> 3.0.1'
+pod 'BaiduMapAPI', '~> 2.8.1'
+pod 'AlipaySDK-2.0', '~> 2.0.3'
+pod 'UITextView+UIControl', '~> 0.1.0'
+pod 'CompatibleCocos2d', '~> 0.2.0'

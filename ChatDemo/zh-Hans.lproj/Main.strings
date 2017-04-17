@@ -1,0 +1,114 @@
+
+/* Class = "UIButton"; normalTitle = "忘记密码"; ObjectID = "2sB-eu-Syc"; */
+"2sB-eu-Syc.normalTitle" = "忘记密码";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "34v-Ri-TfB"; */
+"34v-Ri-TfB.placeholder" = "请输入验证码";
+
+/* Class = "UILabel"; text = "忘记密码"; ObjectID = "4Ok-wk-Sct"; */
+"4Ok-wk-Sct.text" = "忘记密码";
+
+/* Class = "UIButton"; normalTitle = "新用户注册"; ObjectID = "5WI-pg-bFi"; */
+"5WI-pg-bFi.normalTitle" = "新用户注册";
+
+/* Class = "UITextField"; placeholder = "请输入帐号"; ObjectID = "6qn-aj-BYy"; */
+"6qn-aj-BYy.placeholder" = "请输入帐号";
+
+/* Class = "UITextField"; text = "dw962666721"; ObjectID = "6qn-aj-BYy"; */
+"6qn-aj-BYy.text" = "dw962666721";
+
+/* Class = "UINavigationItem"; title = "消息"; ObjectID = "8lv-oY-mCT"; */
+"8lv-oY-mCT.title" = "消息";
+
+/* Class = "UINavigationItem"; title = "个人主页"; ObjectID = "Agt-iG-09k"; */
+"Agt-iG-09k.title" = "个人主页";
+
+/* Class = "UITextField"; placeholder = "请输入手机号"; ObjectID = "CZm-yo-Ide"; */
+"CZm-yo-Ide.placeholder" = "请输入手机号";
+
+/* Class = "UINavigationItem"; title = "通讯录"; ObjectID = "Dmr-p1-zUP"; */
+"Dmr-p1-zUP.title" = "通讯录";
+
+/* Class = "UILabel"; text = "注册"; ObjectID = "EFJ-eQ-fjY"; */
+"EFJ-eQ-fjY.text" = "注册";
+
+/* Class = "UINavigationItem"; title = "登录"; ObjectID = "EgR-8o-p0h"; */
+"EgR-8o-p0h.title" = "登录";
+
+/* Class = "UITextField"; placeholder = "请输入用户名"; ObjectID = "Grl-XD-HzS"; */
+"Grl-XD-HzS.placeholder" = "请输入用户名";
+
+/* Class = "UILabel"; text = "!  使用第三方登录后仍需绑定手机号码"; ObjectID = "JsB-Me-S9P"; */
+"JsB-Me-S9P.text" = "!  使用第三方登录后仍需绑定手机号码";
+
+/* Class = "UINavigationItem"; title = "忘记密码"; ObjectID = "LoJ-LV-xTd"; */
+"LoJ-LV-xTd.title" = "忘记密码";
+
+/* Class = "UITextField"; placeholder = "请输入密码(6~12位)"; ObjectID = "PGB-cE-dZT"; */
+"PGB-cE-dZT.placeholder" = "请输入密码(6~12位)";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "RX4-Iy-5nJ"; */
+"RX4-Iy-5nJ.placeholder" = "请输入密码";
+
+/* Class = "UITextField"; text = "wei5210"; ObjectID = "RX4-Iy-5nJ"; */
+"RX4-Iy-5nJ.text" = "wei5210";
+
+/* Class = "UITabBarItem"; title = "通讯录"; ObjectID = "UJP-xb-DVC"; */
+"UJP-xb-DVC.title" = "通讯录";
+
+/* Class = "UIButton"; normalTitle = "发送验证码"; ObjectID = "Ubq-Rt-wke"; */
+"Ubq-Rt-wke.normalTitle" = "发送验证码";
+
+/* Class = "UINavigationItem"; title = "注册"; ObjectID = "YfM-mi-tG5"; */
+"YfM-mi-tG5.title" = "注册";
+
+/* Class = "UITextField"; placeholder = "请输入手机号(必填)"; ObjectID = "bSi-8a-Mdj"; */
+"bSi-8a-Mdj.placeholder" = "请输入手机号(必填)";
+
+/* Class = "UIButton"; normalTitle = "发送验证码"; ObjectID = "bbb-Xa-Vj5"; */
+"bbb-Xa-Vj5.normalTitle" = "发送验证码";
+
+/* Class = "UILabel"; text = "绑定"; ObjectID = "e5U-Oq-W1a"; */
+"e5U-Oq-W1a.text" = "绑定";
+
+/* Class = "UITextField"; placeholder = "请确认密码(6~12位)"; ObjectID = "guD-2O-yHU"; */
+"guD-2O-yHU.placeholder" = "请确认密码(6~12位)";
+
+/* Class = "UITextField"; placeholder = "请输入密码(6~12位)"; ObjectID = "hGe-AD-odZ"; */
+"hGe-AD-odZ.placeholder" = "请输入密码(6~12位)";
+
+/* Class = "UINavigationItem"; title = "绑定"; ObjectID = "nQ6-Hf-2vH"; */
+"nQ6-Hf-2vH.title" = "绑定";
+
+/* Class = "UINavigationItem"; title = "首页"; ObjectID = "q1W-cJ-fH3"; */
+"q1W-cJ-fH3.title" = "首页";
+
+/* Class = "UITabBarItem"; title = "首页"; ObjectID = "qXW-Ww-wcr"; */
+"qXW-Ww-wcr.title" = "首页";
+
+/* Class = "UIButton"; normalTitle = "发送验证码"; ObjectID = "qdf-nN-kh7"; */
+"qdf-nN-kh7.normalTitle" = "发送验证码";
+
+/* Class = "UITextField"; placeholder = "请输入手机号"; ObjectID = "sRy-5f-kPz"; */
+"sRy-5f-kPz.placeholder" = "请输入手机号";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "tlo-1d-Nl6"; */
+"tlo-1d-Nl6.placeholder" = "请输入验证码";
+
+/* Class = "UILabel"; text = "登录"; ObjectID = "tlu-yT-Jes"; */
+"tlu-yT-Jes.text" = "登录";
+
+/* Class = "UITabBarItem"; title = "我"; ObjectID = "xA2-8k-QOD"; */
+"xA2-8k-QOD.title" = "我";
+
+/* Class = "UITextField"; placeholder = "请输入密码(6~12位)"; ObjectID = "xHv-Aj-9PK"; */
+"xHv-Aj-9PK.placeholder" = "请输入密码(6~12位)";
+
+/* Class = "UITabBarItem"; title = "消息"; ObjectID = "y09-5r-L60"; */
+"y09-5r-L60.title" = "消息";
+
+/* Class = "UITextField"; placeholder = "再次输入密码(6~12位)"; ObjectID = "yqd-d0-Ihu"; */
+"yqd-d0-Ihu.placeholder" = "再次输入密码(6~12位)";
+
+/* Class = "UITextField"; placeholder = "请确认密码(6~12位)"; ObjectID = "z99-F7-iE0"; */
+"z99-F7-iE0.placeholder" = "请确认密码(6~12位)";
